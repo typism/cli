@@ -1,0 +1,9 @@
+{
+  "transform": {
+    "^.+\\.(t)sx?$": "ts-jest"
+  },
+  "testRegex": "(/src/.*(test|spec))\\.tsx?$",
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
+  "modulePaths": ["./src"],
+  "setupFiles": ["./jest.setup.ts"]
+}
